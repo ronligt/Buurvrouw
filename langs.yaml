@@ -1,0 +1,7 @@
+default: "en"
+
+nl:
+  description: beschrijving
+  keywords: trefwoorden
+  modifications: aanpassingen
+  version: versie
