@@ -145,13 +145,43 @@ Omdat dit een nieuw samenwerkingsverband is, waarbij we nog geen of weinig ervar
 
 == Registratieformulier
 
-Voor de registratie van elk gepland optreden wordt in Google Drive een Google Form ingevuld door alle teamleden. Hierdoor is voor iedereen alle informatie beschikbaar en kan snel gekeken worden wat de status is van de planning.
+Voor de registratie van elk gepland optreden wordt in Google Drive een Google Form ingevuld door alle teamleden. Hierdoor is voor iedereen alle informatie beschikbaar en kan snel gekeken worden wat de status is van de planning. Zie hiervoor ook @sec:kickoff.
 
-== Kick\-off
+Een eerste opzet hiervoor wordt gemaakt met daarin onder andere de volgende zaken:
 
-Na de scouting en eventueel verkennende gesprekken met de band wordt een *kick\-off meeting* met de contactpersoon en de band georganiseerd waarin alle afspraken worden vastgelegd. Deze afspraken worden in het registratieformulier opgenomen.
+_let op: dit is een indicatieve lijst_
 
-Na de kick\-off worden alle teamleden geïnformeerd en wordt wordt eventueel feedback gegeven door de teamleden. Vanuit de verschillende rollen worden de volgende zaken gecontroleerd:
+- datum en tijden
+- locatie
+- financiële afspraken (gage, facturering)
+- rider en stageplan beschikbaar en links
+- status publiciteit (teksten, beeldmateriaal, goedkeuringen) en links
+- feedback momenten (wie checkt wat wanneer?)
+- contactpersonen (band, Buurvrouw, techniek)
+- bijzonderheden
+- etc. etc.
+
+== Kick\-off<sec:kickoff>
+
+Na de scouting en eventueel verkennende gesprekken met de band wordt een *kick-off meeting* met de contactpersoon en de band georganiseerd waarin alle afspraken worden vastgelegd. Deze afspraken worden in het registratieformulier opgenomen.
+
+Na de kick\-off worden alle teamleden geïnformeerd en wordt wordt eventueel feedback gegeven door de teamleden. Dit zou eventueel online gedaan kunnen worden met alleen de personen die het betreft. Vanuit de verschillende rollen worden de volgende zaken gecontroleerd:
 
 / publiciteit: opvragen publicatie materiaal band: website, bio, foto's.  Goedkeuring door artiest van publiciteit door De Buurvrouw (flyers, posts e.d.)
-/ financiën: 
+/ financiën: bewaken kosten voor optreden, controleren factuur
+/ organisatie: nakijken en reserveren locatie, tijd en bezetting. Voor de tijd wordt gekeken naar de *op- en afbouwtijd* en *aanvang en duur voorstelling*
+/ techniek: controleren opbouwtijd, *soundcheck tijd en duur*, rider en stageplan op volledigheid en (evt. via contact) nadere informatie opvragen aan band
+
+== Afhandeling en verbeterpunten
+
+Na het optreden zijn er een aantal belangrijk acties die kunnen helpen bij het verbeteren van het proces.
+
+=== Relatie band
+
+Het is goed om na te vragen bij het band hoe de verschillende fasen van het proces zijn ervaren en of er verbeterpunten genoemd kunnen worden. Ook feedback over de techniek is zeer waardevol.
+
+Ook kan gevraagd worden of de band later terug zou willen komen en of er adviezen zijn voor andere bands die bij De Buurvrouw zouden kunnen spelen.
+
+=== Relatie publiek
+
+Tijdens de voorstelling kan de contactpersoon enkele bezoekers kunnen vragen hoe het optreden ervaren wordt en of er adviezen of tips zijn voor latere optredens.
