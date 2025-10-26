@@ -46,7 +46,7 @@ In de volgende hoofdstukken wordt, in grote lijnen chronologisch, beschreven wel
 #figure(
   diagram(
     let (
-      scout, contr, publ,  finan, org,   tech) = (
+      scout, cont,  publ,  finan, org,   tech) = (
       (1,0), (1,1), (0,2), (2,2), (1,2), (1,3)),
     node-stroke: black + 0.5pt,
     debug: 0,
@@ -56,14 +56,14 @@ In de volgende hoofdstukken wordt, in grote lijnen chronologisch, beschreven wel
     label-sep: 0.1em,
     node(scout, [scout]),
     edge("->", label: "band info"),
-    node(contr, [contract]),
+    node(cont, [contact]),
     edge("->", label: "datum\noptreden"),
     node(publ, [publiciteit]),
     node(finan, [financiën]),
-    edge(contr, finan, "->", label: "afspraken\noptreden"),
+    edge(cont, finan, "->", label: "afspraken\noptreden"),
     edge(finan, scout, bend: -50deg, "->", label: "budget"),
     node(org, [organisatie]),
-    edge(contr, org, "->", label: "alle\ninfo"),
+    edge(cont, org, "->", label: "alle\ninfo"),
     node(tech, [techniek]),
     edge(org, tech, "->", label: "rider") 
   ),
@@ -73,7 +73,7 @@ In de volgende hoofdstukken wordt, in grote lijnen chronologisch, beschreven wel
 
 In @fig:workflow zie je een schematische weergave van de samenhang tussen de verschillende rollen. Dit is alleen om een overzicht te krijgen van de verdeling. In werkelijkheid is het zeer waarschijnlijk, dat alle teamleden van het Programmeerteam regelmatig contact met elkaar zullen hebben. Of soms ook helemaal niet.
 
-== Bands zoeken [scout]
+== Scout [band zoeken]
 
 Hierbij moet rekening worden gehouden met de kwaliteit van de band, de doelgroep van de bezoekers en het beschikbare budget. Bands kunnen gevonden worden via het eigen netwerk (meestal lokaal), door het bijwonen van concerten, door contacten met andere podia en door het actief werven via publiciteit (zie @sec:publiciteit).
 
@@ -85,13 +85,15 @@ Om een inschatting te maken van de financiële haalbaarheid voor De Buurvrouw is
 
 De persoon die deze taken op zich neemt, zal affiniteit moeten hebben met muziek en bij voorkeur een brede interesse in verschillende muziekstijlen. Verder is een eigen netwerk van muzikanten en regelmatige bezoekers van concerten een voordeel.
 
-Zodra een keus is gemaakt voor een band, wordt de informatie overgedragen naar de persoon in het team die de communicatie met de band op zich neemt en zorgt voor het contract (zie @sec:contract).
+Zodra een keus is gemaakt voor een band, wordt de informatie overgedragen naar de persoon in het team die de communicatie met de band op zich neemt en zorgt voor het contract (zie @sec:contact).
 
-== Contract<sec:contract>
+== Contact<sec:contact>
 
-De rol van communicatie is om tot een contract of afspraak te komen met de band voor een optreden in De Buurvrouw. Hiervoor is contact met de band natuurlijk het belangrijkst, maar ook met de overige teamleden om goed inzage te hebben in financiële ruimte, de agenda en de technische mogelijkheden.
+De rol van de contactpersoon is om tot een contract of afspraak te komen met de band voor een optreden in De Buurvrouw en alle verdere communicatie met de band te regelen. Hiervoor is contact met de band natuurlijk het belangrijkst, maar ook met de overige teamleden om goed inzage te hebben in financiële ruimte, de agenda en de technische mogelijkheden.
 
 De belangrijkste kwaliteit is het vermogen om te communiceren op alle gebieden en het kunnen verbinden van de verschillende benodigdheden voor een optreden. Hiervoor moet de persoon die deze rol vervult een duidelijk idee hebben op welke manier iedereen uit het team bij kan dragen en de juiste informatie verzamelen om tot duidelijke afspraken te kunnen komen.
+
+Omdat alle communicatie met de band via de contactpersoon verloopt en deze alle afspraken en details kent, moet deze ook aanwezig zijn tijdens de voorstelling als aanspreekpunt voor de band, de techniek en het personeel.
 
 Na deze fase kan begonnen worden met de publiciteit, de organisatie binnen de Buurvrouw en het afhandelen van de financiële kant.
 
@@ -141,4 +143,15 @@ Omdat dit een nieuw samenwerkingsverband is, waarbij we nog geen of weinig ervar
 
 #text(fill: red)[_dit gedeelte is nog niet klaar_]
 
+== Registratieformulier
+
 Voor de registratie van elk gepland optreden wordt in Google Drive een Google Form ingevuld door alle teamleden. Hierdoor is voor iedereen alle informatie beschikbaar en kan snel gekeken worden wat de status is van de planning.
+
+== Kick\-off
+
+Na de scouting en eventueel verkennende gesprekken met de band wordt een *kick\-off meeting* met de contactpersoon en de band georganiseerd waarin alle afspraken worden vastgelegd. Deze afspraken worden in het registratieformulier opgenomen.
+
+Na de kick\-off worden alle teamleden geïnformeerd en wordt wordt eventueel feedback gegeven door de teamleden. Vanuit de verschillende rollen worden de volgende zaken gecontroleerd:
+
+/ publiciteit: opvragen publicatie materiaal band: website, bio, foto's.  Goedkeuring door artiest van publiciteit door De Buurvrouw (flyers, posts e.d.)
+/ financiën: 
