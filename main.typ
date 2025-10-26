@@ -1,6 +1,6 @@
 #import "artikel.typ": article
 
-// drawing diagrams
+// drawing diagrams https://typst.app/universe/package/fletcher/
 #import "@preview/fletcher:0.5.8" as fletcher: diagram, node, edge
 
 #set text(lang: "nl")
@@ -23,6 +23,8 @@
 
 // turn on heading numbering to enable referencing
 #set heading(numbering: "1.")
+
+#outline()
 
 = Inleiding
 
@@ -65,7 +67,14 @@ In de volgende hoofdstukken wordt, in grote lijnen chronologisch, beschreven wel
     node(org, [organisatie]),
     edge(cont, org, "->", label: "alle\ninfo"),
     node(tech, [techniek]),
-    edge(org, tech, "->", label: "rider") 
+    edge(org, tech, "->", label: "rider"),
+    edge((3.,-0.5),(3,4), "=>"),
+    node((3.7,0), [T-3mnd: zoeken band], stroke: 0pt, ),
+    node((3.7,1), [T-2mnd: kick-off], stroke: 0pt),
+    node((3.7,2), [T-1mnd: publ. & tech.], stroke: 0pt),
+    node((3.7,2.6), [T-1wk: finale check], stroke: 0pt),
+    node((3.7,3), [*T: optreden*], stroke: 0pt),
+    node((3.7,3.4), [T+1wk: nazorg, finan. & eval.], stroke: 0pt),
   ),
   caption: box("workflow Programmateam")
 )<fig:workflow>
@@ -141,9 +150,13 @@ Omdat dit een nieuw samenwerkingsverband is, waarbij we nog geen of weinig ervar
 
 = Werkwijze Programmateam
 
-#text(fill: red)[_dit gedeelte is nog niet klaar_]
+== Werkdocument<sec:werkdoc>
 
-== Registratieformulier
+Het Programmateam werkt volgens het *werkdocument* dat hiervoor opgesteld wordt. Hierin staan alle werkzaamheden van alle rollen beschreven. Samen met het *registratieformulier* (@sec:regform) vormen deze de basis van alle afspraken over hoe de programmering in De Buurvrouw wordt gedaan.
+
+Dit voorstel kan dienen als basis voor het werkdocument.
+
+== Registratieformulier<sec:regform>
 
 Voor de registratie van elk gepland optreden wordt in Google Drive een Google Form ingevuld door alle teamleden. Hierdoor is voor iedereen alle informatie beschikbaar en kan snel gekeken worden wat de status is van de planning. Zie hiervoor ook @sec:kickoff.
 
@@ -182,6 +195,22 @@ Het is goed om na te vragen bij het band hoe de verschillende fasen van het proc
 
 Ook kan gevraagd worden of de band later terug zou willen komen en of er adviezen zijn voor andere bands die bij De Buurvrouw zouden kunnen spelen.
 
+Er kunnen ook afspraken gemaakt worden over het delen van foto's en video's die door de band en door De Buurvrouw zijn gemaakt of verzameld.
+
 === Relatie publiek
 
-Tijdens de voorstelling kan de contactpersoon enkele bezoekers kunnen vragen hoe het optreden ervaren wordt en of er adviezen of tips zijn voor latere optredens.
+Tijdens de voorstelling kan de contactpersoon enkele bezoekers kunnen vragen hoe het optreden ervaren wordt en of er adviezen of tips zijn voor latere optredens. Ook kunnen flyers uitgedeeld worden met de komende evenementen in De Buurvrouw.
+
+Mochten er interessante foto's en video's zijn gemaakt, is het misschien interessant te vragen of deze gedeeld kunnen worden met De Buurvrouw.
+
+=== Financiële afhandeling
+
+Na het optreden kan al naar gelang de afspraak direct uitbetaald worden of naderhand via een overschrijving. Dit valt onder de verantwoordelijkheid van de financiële persoon.
+
+=== Publiciteit
+
+Bij bijzondere optredens kan contact worden gezocht met tijdschriften en/of kranten om verslag hiervan te doen. Sowieso kunnen via de social media delen van het optreden, foto's en korte verslagen worden gedeeld.
+
+=== Evaluatie
+
+Als er behoefte is aan een evaluatie van het optreden of het proces naar het optreden, kan een bijeenkomst (eventueel online) met het Programmateam worden georganiseerd. Zeker in het de beginmaanden van het Programmateam is het belangrijk, dat steeds gekeken wordt of de afspraken en rolverdeling nog goed werken. Aanpassingen moeten verwerkt worden in de werkdocumentatie, zie @sec:werkdoc.
