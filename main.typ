@@ -214,3 +214,36 @@ Bij bijzondere optredens kan contact worden gezocht met tijdschriften en/of kran
 === Evaluatie
 
 Als er behoefte is aan een evaluatie van het optreden of het proces naar het optreden, kan een bijeenkomst (eventueel online) met het Programmateam worden georganiseerd. Zeker in het de beginmaanden van het Programmateam is het belangrijk, dat steeds gekeken wordt of de afspraken en rolverdeling nog goed werken. Aanpassingen moeten verwerkt worden in de werkdocumentatie, zie @sec:werkdoc.
+
+= Bijlage
+
+== Aanpassingen & uitbreidingen verslag en database
+
+=== database
+
+==== artiest tabel
+Mogelijkheid voor registratie communicatie op de lange termijn. Bijvoorbeeld:
+- heeft deze eerder opgetreden
+- is er na een jaar contact over vernieuwing
+- opnieuw uitnodigen
+- nooit meer uitnodigen
+
+==== publicatie tabel
+Aparte tabel.
+
+status: concept, publicatie
+
+type: social, flyer, poster, e-mail
+
+afspraken met artiest: tekst met datum
+
+==== workflow tabel
+Aanpassing: bij elke check tekstvelden met datum over afspraken (bijv. e-mail)
+
+==== financiële tabel
+
+Wellicht alleen toegang nodig tot deze tabel, niet de andere informatie
+
+=== rol verdeling
+
+Veel meer nadruk op centrale rol *control*, juist ook bij evenement i.v.m. _fingerspitze_ gevoel. Als voorbeeld: gaan we deze band vragen om te betalen voor de drankjes, kan zomaar afhangen van financiële houding bij overleg
