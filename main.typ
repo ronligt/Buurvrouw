@@ -3,6 +3,11 @@
 // drawing diagrams https://typst.app/universe/package/fletcher/
 #import "@preview/fletcher:0.5.8" as fletcher: diagram, node, edge
 
+#import "@preview/luzid-checkbox:0.1.0": luzid
+
+#show: luzid
+
+
 #set text(lang: "nl")
 #set text(font: "New Computer Modern")
 
@@ -17,7 +22,7 @@
   date: datetime.today(),
   header: "De Buurvrouw",
   logo: "DeBuurvrouw_logo_RGB.svg",
-  version: "3.0",
+  version: "3.2",
   l10n: "langs.yaml",
 )
 
@@ -217,16 +222,18 @@ Als er behoefte is aan een evaluatie van het optreden of het proces naar het opt
 
 = Bijlage
 
+#text(fill: red)[_Onderstaande informatie is nog niet compleet_ (Ronald Ligteringen, 20260429)]
+
 == Aanpassingen & uitbreidingen verslag en database
 
 === database
 
 ==== artiest tabel
 Mogelijkheid voor registratie communicatie op de lange termijn. Bijvoorbeeld:
-- heeft deze eerder opgetreden
-- is er na een jaar contact over vernieuwing
-- opnieuw uitnodigen
-- nooit meer uitnodigen
+- [x] heeft deze eerder opgetreden
+- [x] is er na een jaar contact over vernieuwing
+- [x] opnieuw uitnodigen
+- [x] nooit meer uitnodigen
 
 ==== publicatie tabel
 Aparte tabel.
